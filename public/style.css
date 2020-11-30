@@ -1,0 +1,53 @@
+.new-contanier {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.new-mini-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  align-items: center;
+}
+
+#service1 {
+  flex: 2;
+  padding: 0px 0px 0px 130px;
+}
+#service2 {
+  width: 100%;
+}
+#service3 {
+  flex: 2;
+  padding: 0px 110px 100px 0;
+}
+.sidebar {
+  display: block;
+  z-index: 50;
+  flex: 0 0 320px;
+  max-width: 25%;
+  backface-visibility: hidden;
+}
+#service4 {
+  max-width: fit-content;
+  position: sticky;
+  right: 0px;
+  top: 0px;
+  min-height: 100vh;
+  border-left: 1px solid #ebedee;
+}
+
+.bottomBanner {
+  margin: 5px 0 0 0;
+}
+.topBanner {
+  margin: 0 0 5px 0;
+}
+
+.gTLZXx {
+  padding: 0px 388px;
+}
