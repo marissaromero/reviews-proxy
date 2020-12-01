@@ -15,7 +15,7 @@ router.use('/service1.js', createProxyMiddleware({
 }));
 
 router.use('/service2.js', createProxyMiddleware({
-  target: service2.url,
+  target: service2.url + '/:id',
   pathRewrite: {
     '.*/bundles/service2.js': service2.bundle,
   },
